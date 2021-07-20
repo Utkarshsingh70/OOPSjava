@@ -1,14 +1,16 @@
-# **Library Store Management System Using Java**
+# **Object Oriented Programming based Loaning System**
 
-> This project uses java.awt package and MySQl as database to build a Library Store which can manage all the CRUD operations. This can be further extended to design softwares beneficial for shops, school etc.
+> This project uses OOPS concept for designing a loaning system.
 
 ## **Description**
-A system is build for library store to lend, sell and incur fine on books exchange using object-oriented programming concepts. **JDBC as database connectivity and MySQL as database** is used to store the book credentials and performed CRUD operations.
+The Item class models one item in a library. It is an **abstract superclass**. There are two **abstract methods**, getFinesPerDay and getAdminCharge that returns the administrative charge. The method lostCharges returns the sum of administrative charges and the cost of the item. 
 
-## **Java AWT**
+The Book and Media classes model a book and a media respectively, available in a library. They are **subclasses of Item.
 
-Java AWT (Abstract Window Toolkit) is an API to develop GUI or window-based applications in java.
-Java AWT components are platform-dependent i.e. components are displayed according to the view of operating system.
+The Book class has an additional **instance variable**(declared outside method/constructor) authors, a list of string, each string for the name of one author. The administrative charge is computed using a decreasing percentage of the book cost, and the decrease is based on the year of publication.
+
+The Loan class models a loan made for a copy of an item.
+
 
 ## **Preview**   
 
