@@ -12,4 +12,4 @@ Java AWT components are platform-dependent i.e. components are displayed accordi
 
 ## **Preview**   
 
-
+![p](https://user-images.githubusercontent.com/61719550/126339316-ce67dd4e-098a-44ac-aacb-3c0530842bb8.PNG)
