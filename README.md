@@ -1,6 +1,6 @@
 # **Object Oriented Programming based Loaning System**
 
-> This project uses OOPS concept for designing a loaning system.
+> This project uses OOPS concept for designing a loaning system. The four basics of OOP are abstraction, encapsulation, inheritance, and polymorphism are used here.
 
 ## **Description**
 The Item class models one item in a library. It is an **abstract superclass**. There are two **abstract methods**, getFinesPerDay and getAdminCharge that returns the administrative charge. The method lostCharges returns the sum of administrative charges and the cost of the item. 
